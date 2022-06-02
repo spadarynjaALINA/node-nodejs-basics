@@ -1,6 +1,5 @@
 import * as fs from 'fs';
 import path from 'path';
-import { access, constants } from 'node:fs';
 const __dirname = path.resolve( path.dirname( 'src/fs/files' ) );
 const files = path.join(__dirname, 'files');
 const filesCopy = path.join(__dirname, 'filesCopy');
