@@ -21,7 +21,7 @@ console.error( errorMsg.message)
         {
           fs.mkdir( filesCopy, { recursive: true }, ( err ) =>
           {
-            if ( err ) throw err;
+            if ( err ) throw errorMsg.message;
           } );
 
          fs.readdir(files, function (err, items) {
